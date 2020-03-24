@@ -71,13 +71,13 @@ class RemoveCharAInFirstTwoPlacesTest {
 		assertEquals(removecharAinfirsttwoplaces.removeAinFirst2Places("BACD"),"BCD");
 	}
 	
-	//Test 6
+	//Test 7
 	@Test
 	void testotherCharsAtPositions1and2() {
 		assertEquals(removecharAinfirsttwoplaces.removeAinFirst2Places("BBAA"),"BBAA");
 	}
 	
-	//Test 7
+	//Test 8
 	@Test
 	void testAinPositions1and2also() {
 		assertEquals(removecharAinfirsttwoplaces.removeAinFirst2Places("AABBAA"),"BBAA");
